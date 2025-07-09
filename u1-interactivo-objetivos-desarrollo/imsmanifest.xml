@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This is a Reload version 2.5.6 SCORM 1.2 Content Package document-->
+<!--Spawned from the Reload Content Package Generator - http://www.reload.ac.uk-->
+<manifest xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:imsmd="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" identifier="MANIFEST-153AFDE244EC51782A96481EBBCC1C2E" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+  <organizations default="ORG-68DB3C4826BE651AE250E0EC830C8591">
+    <organization identifier="ORG-68DB3C4826BE651AE250E0EC830C8591" structure="hierarchical">
+      <title>Organization</title>
+      <item identifier="ITEM-A9D97B8CA15B51990112871739BA8C19" identifierref="RES-825516EBD92B980AF8D570C36D102A5B" isvisible="true">
+        <title>Item</title>
+        <metadata>
+          <schema>ADL SCORM</schema>
+          <schemaversion>1.2</schemaversion>
+        </metadata>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="RES-825516EBD92B980AF8D570C36D102A5B" type="text/html" href="genially.html" adlcp:scormtype="asset">
+      <file href="genially.html" />
+      <file href="css/css2.css" />
+      <file href="favicon.ico" />
+    </resource>
+  </resources>
+</manifest>
+

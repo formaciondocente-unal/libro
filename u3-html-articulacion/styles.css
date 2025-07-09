@@ -1,0 +1,133 @@
+.contenedor-iframe {
+    max-width: 600px;
+    width: 100%;
+    min-width: 200px;
+    padding-bottom: 10px;
+}
+.contenedor-iframe--center {
+    margin: auto;
+}
+.iframe-responsive {
+    position: relative;
+    height: 0;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+    border-radius: 15px;
+}
+.iframe-responsive iframe {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.esc1{
+    position: relative;
+}
+
+.esc1 button{
+    position: absolute;
+    background: unset;
+    border: unset;
+    transition: all 0.5s;
+}
+
+.esc1 button img{
+    width: 100%;
+}
+
+#btn1{
+    width: 15%;
+    top: 17.4%;
+    left: 66%;
+}
+
+#btn2{
+    width: 21%;
+    top: 18%;
+    left: 43.5%;
+}
+
+#btn3{
+    width: 15%;
+    top: 80%;
+    left: 61%;
+}
+
+#btn4{
+    width: 23.5%;
+    top: 47%;
+    left: 43.4%;
+}
+
+#btn5{
+    width: 19%;
+    top: 71%;
+    left: 36.1%;
+}
+
+#btn6{
+    width: 15%;
+    top: 58%;
+    left: 16%;
+}
+
+#btn7{
+    width: 20%;
+    top: 33.4%;
+    left: 29.4%;
+}
+
+#btn1:hover, #btn3:hover, #btn6:hover{
+    transform: scale(1.1);
+}
+
+#btn2:hover, #btn4:hover, #btn5:hover, #btn7:hover{
+    filter: grayscale(0.9);
+}
+
+.cita{
+    margin-left: 25px;
+    font-size: 0.9rem;
+}
+
+.referencias p{
+    margin-left: 35.45pt;
+    text-align: justify;
+    text-indent: -35.45pt;
+    line-height: 115%;
+}
+
+.centr{
+    max-width: 1000px;
+    margin: auto;
+    display: block;
+}
+
+.accordion-button{
+    padding: 5px 20px !important;
+    background-color: #00adf3 !important;
+    color: white !important;
+    transition: all 0.5s;
+}
+
+.accordion-button:hover {
+    background-color: #008aca !important;
+}
+
+.modal-title{
+    color: #01004b !important;
+}
+
+.accordion-item{
+    margin-bottom: 2px;
+}
+
+.modal-header{
+    border-bottom: unset !important;
+}
+
+.modal-footer{
+    border-top: unset !important;
+}

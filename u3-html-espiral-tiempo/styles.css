@@ -1,0 +1,245 @@
+p,
+li,
+a {
+    font-size: 1.1rem;
+}
+
+.tit-azul {
+    color: #02004c;
+    font-size: 1.8rem;
+}
+
+.img-1200 {
+    width: 95%;
+    max-width: 1200px;
+    margin: auto;
+    display: block;
+}
+
+.img-800 {
+    width: 95%;
+    max-width: 800px;
+    margin: auto;
+    display: block;
+}
+
+.img-600 {
+    width: 95%;
+    max-width: 600px;
+    margin: auto;
+    display: block;
+}
+
+.img-300 {
+    width: 95%;
+    max-width: 300px;
+    margin: auto;
+    display: block;
+}
+
+.mar-neg {
+    margin-bottom: -4rem;
+}
+
+.referencias p {
+    margin-left: 35.45pt;
+    text-align: justify;
+    text-indent: -35.45pt;
+    line-height: 115%;
+}
+
+.contenedor-iframe {
+    max-width: 600px;
+    width: 100%;
+    min-width: 200px;
+    padding-bottom: 10px;
+}
+
+.contenedor-iframe--center {
+    margin: auto;
+}
+
+.iframe-responsive {
+    position: relative;
+    height: 0;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.iframe-responsive iframe {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.tit-espiral{
+    font-size: 1rem;
+    margin-left: 12px;
+    font-weight: 500;
+}
+
+.inicio-esp{
+    margin-left: 20px;
+}
+
+/* Acordeones */
+.accordion-button {
+    background-color: #00adf3 !important;
+    font-size: 1.5rem !important;
+    font-weight: bold;
+    font-style: italic;
+    color: #ffffff !important;
+    transition: all 0.5s;
+}
+
+.accordion-button:hover {
+    background-color: #0095cf !important;
+}
+
+/*---- Escenario ----*/
+.esc-inicio {
+    position: relative;
+    max-width: 1200px;
+    margin: 30px auto;
+}
+
+.esc-inicio a {
+    transition: all 0.5s;
+}
+
+.esc-inicio a:hover {
+    filter: brightness(1.1) drop-shadow(2px 4px 6px #5f5f5f);
+}
+
+.esc-inicio a,
+.img-esc {
+    position: absolute;
+}
+
+.esc-inicio a img {
+    width: 100%;
+}
+
+#btn-1 {
+    width: 16%;
+    left: 43%;
+    top: 56%;
+}
+
+#btn-2 {
+    width: 16%;
+    left: 54%;
+    top: 36%;
+}
+
+#btn-3 {
+    width: 16%;
+    left: 23%;
+    top: 45%;
+}
+
+#btn-4 {
+    width: 16%;
+    left: 63%;
+    top: 62%;
+}
+
+#btn-5 {
+    width: 16%;
+    left: 83%;
+    top: 77%;
+}
+
+#btn-6 {
+    width: 16%;
+    left: 83%;
+    top: 90%;
+}
+
+.flex-audio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn-audio {
+    width: 150px;
+    border: unset;
+    background: unset;
+    margin-right: 10px;
+}
+
+
+/*---- Navegación ----*/
+.flex-nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.flex-nav a {
+    width: 70px;
+    margin: 10px;
+    text-decoration: unset;
+    text-align: center;
+    color: black;
+    font-weight: 500;
+    transition: all 0.5s;
+}
+
+.flex-nav a img {
+    width: 100%;
+}
+
+.ant:hover {
+    transform: translateX(-20px);
+    filter: brightness(1.3);
+}
+
+.inicio:hover {
+    transform: scale(1.1);
+    filter: brightness(1.3);
+}
+
+.sig:hover {
+    transform: translateX(20px);
+    filter: brightness(1.3);
+}
+
+/* Menú */
+.btn-flot {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    width: 90px;
+    background-color: #00004a;
+    color: white;
+    font-weight: 600;
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 10px;
+    padding: 5px;
+    transition: all 0.5s;
+}
+
+.btn-flot:hover {
+    filter: brightness(1.2) drop-shadow(2px 4px 1px rgb(137, 137, 137));
+}
+
+.offcanvas-body p a {
+    text-decoration: unset;
+    color: unset;
+    text-align: left;
+}
+
+.offcanvas-title {
+    color: #00004a;
+}

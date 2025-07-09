@@ -1,0 +1,294 @@
+.mnega {
+    margin-bottom: -10px;
+}
+
+.btns-inicio {
+    background-color: #01004b;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.btns-inicio a,
+.btns-inicio button {
+    background-color: #f3ce00;
+    border: unset;
+    font-size: 1.4rem;
+    font-weight: bold;
+    width: 305px;
+    padding: 5px;
+    display: block;
+    text-decoration: unset;
+    color: #01004b;
+    text-align: center;
+    margin-bottom: 20px;
+    box-shadow: #99999980 0px 3px 6px, #ededed7a 0px 3px 6px;
+    transition: all 0.5s;
+}
+
+.btns-inicio a:hover,
+.btns-inicio button:hover, .btn-ref:hover, .btn-cred:hover {
+    transform: scale(0.94);
+    filter: contrast(1.2);
+}
+
+main.container.fondo {
+    padding-bottom: 4rem;
+}
+
+.flex-intro {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.img-82 {
+    width: 82px;
+    margin: auto;
+    display: block;
+}
+
+.img-400 {
+    width: 400px;
+    margin: auto;
+    display: block;
+}
+
+.img-430 {
+    max-width: 430px;
+    width: 100%;
+}
+
+.img-435 {
+    width: 435px;
+    margin: auto;
+    display: block;
+}
+
+.img-500 {
+    width: 500px;
+    margin: auto;
+    display: block;
+}
+
+.img-515 {
+    max-width: 515px;
+    width: 100%;
+}
+
+.img-615 {
+    max-width: 615px;
+    width: 100%;
+}
+
+.img-850{
+    width: 100%;
+    max-width: 850px;
+    margin: auto;
+    display: block;
+}
+
+.btn-home {
+    width: 100px;
+    margin: auto;
+    display: block;
+}
+
+.botonera-intro {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    background-color: #e1eef3;
+    padding: 3rem;
+}
+
+.botonera-intro button {
+    border: unset;
+    background: unset;
+    width: 340px;
+    filter: drop-shadow(2px 4px 4px #000000);
+    transition: all 0.5s;
+}
+
+.botonera-intro button:hover {
+    transform: scale(0.97) rotate(5deg);
+}
+
+.botonera-intro button img {
+    width: 100%;
+}
+
+.btn-home {
+    text-align: center;
+    text-decoration: unset;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #01004b;
+    margin-top: 2rem;
+    transition: all 0.5s;
+}
+
+.btn-home p {
+    margin-bottom: unset;
+}
+
+.btn-home:hover {
+    transform: scale(1.1);
+    filter: contrast(1.2);
+}
+
+.modal-header {
+    color: #01004b;
+    background-color: #f3ce00;
+}
+
+.modal-footer button {
+    background-color: #01004b;
+}
+
+.recuadro-lila {
+    position: relative;
+}
+
+.recuadro-lila img {
+    filter: brightness(1.2);
+}
+
+.contenido-recuadro {
+    position: absolute;
+    top: 22%;
+    left: 10%;
+    width: 80%;
+    bottom: 15%;
+    overflow-y: overlay;
+}
+
+.instruccion {
+    margin-top: 5rem;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+
+.instruccion2 {
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 1.1rem;
+}
+
+.instruccion3 {
+    text-align: center;
+    font-size: 1.1rem;
+    margin-bottom: 3rem;
+}
+
+.fondo {
+    background-color: #efefef;
+}
+
+
+/* Acordeon */
+
+#acordeon .accordion-item {
+    border: unset;
+    margin-bottom: 1rem;
+}
+
+#acordeon .accordion-header button {
+    color: #ffffff;
+    font-size: 1.3rem;
+    font-weight: 600;
+    transition: all 0.5s;
+}
+
+#acordeon .accordion-header button:hover {
+    transform: translateY(5px);
+}
+
+#acordeon .accordion-item .accordion-header button {
+    color: #ffffff;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+#acordeon .accordion-item:nth-child(even) .accordion-header button {
+    background-color: #00adf3;
+}
+
+#acordeon .accordion-item:nth-child(odd) .accordion-header button {
+    background-color: #f3ce00;
+}
+
+/* Fin Acordeon */
+
+.flex-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.flex-cards button{
+    background: unset;
+    border: unset;
+    width: 200px;
+    filter: drop-shadow(2px 4px 2px #616161);
+    transition: all 0.5s;
+}
+
+.flex-cards button:hover{
+    transform: scale(0.95);
+}
+
+.flex-cards button img{
+    width: 100%;
+}
+.btn-ref{
+    background-color: #f3ce00;
+    border: unset;
+    font-size: 1.4rem;
+    font-weight: bold;
+    width: 305px;
+    padding: 5px;
+    margin: auto;
+    display: block;
+    color: #01004b;
+    text-align: center;
+    box-shadow: #99999980 0px 3px 6px, #ededed7a 0px 3px 6px;
+    transition: all 0.5s;
+}
+
+.referencias p{
+    margin-left: 35.45pt;
+    text-align: justify;
+    text-indent: -35.45pt;
+    line-height: 115%;
+    word-break: break-word;
+}
+
+.creditos{
+    text-align: center;
+}
+
+.btn-cred{
+    width: 220px;
+    margin: auto;
+    display: block;
+    border: unset;
+    background: unset;
+    margin-top: 2rem;
+    transition: all 0.5s;
+}
+
+.btn-cred img{
+    width: 100%;
+}
