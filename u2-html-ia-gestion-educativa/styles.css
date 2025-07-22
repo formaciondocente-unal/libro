@@ -1,0 +1,267 @@
+@font-face {
+    font-family: "Ancizar";
+    src: url("./assets/fonts/ancizar/Ancizar_Sans/AncizarSans-Regular.otf") format("opentype");
+}
+
+* {
+    font-family: "Ancizar";
+}
+
+p,
+li,
+a,
+td,
+th {
+    font-size: 1.1rem;
+}
+
+.contenedor-esc1 {
+    background-color: #00adf3;
+    padding: 1rem 2rem;
+}
+
+.contenedor-esc2 {
+    background-color: #f1f8ff;
+    padding: 2rem;
+    margin: 3rem 0;
+}
+
+.contenedor-esc3 {
+    background-color: #fbf8ee;
+    padding: 2rem;
+    margin: 3rem 0;
+}
+
+.contenedor-esc1 .row {
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contenedor-esc1 .row p {
+    color: #ffffff;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+}
+
+.contenedor-esc1 button {
+    border: unset;
+    background: unset;
+    transition: all 0.5s;
+}
+
+.contenedor-esc1 a img {
+    width: 100%;
+    transition: all 0.5s;
+}
+
+.flex-ref-cred {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+
+.flex-ref-cred button:nth-child(1) {
+    width: 310px;
+}
+
+.flex-ref-cred button:nth-child(2) {
+    width: 260px;
+}
+
+.modales-ia .modal-header {
+    border-bottom: unset;
+}
+
+.modales-ia .modal-header h1 {
+    color: #040479;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.flex-audio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.flex-audio img {
+    width: 130px;
+}
+
+.btn-inicio {
+    text-decoration: unset;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #000000;
+    font-weight: 600;
+    width: 150px;
+    margin: 4rem auto 0;
+    color: #040479;
+    transition: all 0.5s;
+}
+
+.btn-inicio img {
+    width: 90px;
+}
+
+.contenedor-iframe {
+    max-width: 700px;
+    width: 100%;
+    min-width: 200px;
+    padding-bottom: 10px;
+}
+
+.contenedor-iframe--center {
+    margin: auto;
+}
+
+.iframe-responsive {
+    position: relative;
+    height: 0;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.iframe-responsive iframe {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.btn-pdf {
+    margin: 1rem auto 3rem;
+    display: block;
+    width: 150px;
+    transition: all 0.5s;
+}
+
+.subtit-azul {
+    color: #040479 !important;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 2rem;
+}
+
+.btn-pdf:hover {
+    filter: drop-shadow(2px 4px 6px #575757);
+    transform: scale(0.9);
+}
+
+.btn-inicio:hover,
+.contenedor-esc1 button:hover,
+.contenedor-esc1 button:hover,
+.flex-implicaciones button:hover,
+.flex-implicaciones2 button:hover,
+.flex-posibilidades button:hover {
+    transform: scale(0.9) !important;
+}
+
+.contenedor-esc1 a:hover img {
+    transform: scale(0.9) !important;
+}
+
+.flex-implicaciones {
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-implicaciones button,
+.flex-implicaciones2 button {
+    border: unset;
+    background: unset;
+    transition: all 0.5s;
+    margin-bottom: 1rem;
+}
+
+.flex-implicaciones button img,
+.flex-implicaciones2 button img {
+    width: 100%;
+}
+
+.flex-implicaciones2 {
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.instruccion {
+    border-left: 2px solid #605e8c;
+    padding-left: 0.5rem;
+    color: #605e8c;
+}
+
+.flex-posibilidades {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.flex-posibilidades button {
+    border: unset;
+    background: unset;
+    max-width: 510px;
+    transition: all 0.5s;
+    margin-bottom: 0.5rem;
+}
+
+.flex-posibilidades button img {
+    width: 100%;
+}
+
+#acc-codisenos .accordion-button,
+#acc-codisenos2 .accordion-button {
+    background-color: #00adf3 !important;
+    font-size: 1.3rem !important;
+    color: #ffffff !important;
+    transition: all 0.5s;
+}
+
+#acc-codisenos .accordion-button:hover,
+#acc-codisenos2 .accordion-button:hover {
+    background-color: #0095cf !important;
+}
+
+.tabla-codisenos {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabla-codisenos td {
+    border: 1px solid #999;
+    padding: 10px;
+    vertical-align: top;
+    text-align: left;
+}
+
+.tabla-codisenos td:first-child {
+    color: #040479;
+    font-weight: bold;
+    text-align: center;
+}
+
+.referencias p{
+    margin-left: 35.45pt;
+    text-align: justify;
+    text-indent: -35.45pt;
+    line-height: 115%;
+}
+
+.creditos{
+    text-align: center;
+}
+
+.creditos strong{
+    color: #040479;
+}

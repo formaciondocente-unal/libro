@@ -1,3 +1,12 @@
+@font-face {
+    font-family: "Ancizar";
+    src: url("./assets/fonts/ancizar/Ancizar_Sans/AncizarSans-Regular.otf") format("opentype");
+}
+
+* {
+    font-family: "Ancizar";
+}
+
 p,
 li,
 a {

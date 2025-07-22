@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title></title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <img class="w-100" src="assets/0.png"
+                alt="Inteligencia artificial (IA) como herramienta de apoyo para la gestión académica e investigativa">
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="contenedor-esc1">
+                <div class="row">
+                    <div class="col-md-5">
+                        <p>Haz clic en el siguiente botón para acceder a la introducción del contenido. Una vez lo hayas
+                            revisado, te invitamos a ingresar a las demás secciones. </p>
+                        <button data-bs-toggle="modal" data-bs-target="#modal-intro">
+                            <img class="w-100" src="assets/1.png" alt="Presentación y punto de partida">
+                        </button>
+                    </div>
+                    <div class="col-md-6">
+                        <a href="2.html" aria-label="Inteligencia artificial generativa (IAGen)">
+                            <img src="assets/2.png" alt="">
+                        </a>
+                        <a href="3.html" aria-label="IAGen para la gestión académica e investigativa">
+                            <img src="assets/3.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="flex-ref-cred">
+                    <button aria-label="Créditos">
+                        <img class="w-100" src="assets/4.png" alt="" data-bs-toggle="modal"
+                            data-bs-target="#modal-biblio">
+                    </button>
+                    <button aria-label="Referencias bibliográficas" data-bs-toggle="modal" data-bs-target="#modal-cred">
+                        <img class="w-100" src="assets/5.png" alt="">
+                    </button>
+
+                </div>
+            </div>
+            <img class="w-100" src="assets/6.png" alt="">
+        </div>
+    </main>
+
+
+    <!-- Modales -->
+    <div class="modal fade modales-ia" id="modal-intro" tabindex="-1" aria-labelledby="modal-introLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="modal-introLabel"></h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img class="w-100 mb-4" src="assets/7.png" alt="">
+                    <p>A lo largo del Módulo 2, <em>Lo pedagógico</em>, hemos explorado cómo la formación integral
+                        conversa con las racionalidades, las teorías de aprendizaje, la formación en investigación, el
+                        enfoque de capacidades, entre otros elementos clave para centrarnos en lo particular: los y las
+                        estudiantes y sus procesos de formación tanto en ambientes escolares como extraescolares.
+                        También nos acercaremos a la ciencia abierta y a la inteligencia artificial como otras formas de
+                        colaborar, aprender y producir conocimiento. En este sentido, abordaremos la inteligencia
+                        artificial (en adelante, IA) como una herramienta que puede facilitar la gestión académica e
+                        investigativa desde la perspectiva de la UNESCO (2024), en la cual el rol de los profesores, las
+                        profesoras, los investigadores y las investigadoras en la educación superior ha de favorecer la
+                        apropiación de posturas críticas, reflexivas y éticas al momento de usar la IA, además de
+                        reconocer las regulaciones y recomendaciones existentes para su implementación en educación. En
+                        el siguiente material reconoceremos algunas herramientas IA y orientaciones pedagógicas e
+                        investigativas para utilizarlas.</p>
+                    <p>Te invitamos a explorar las siguientes secciones, en ellas encontrarás recomendaciones sobre la
+                        ingeniería de <em>prompts</em>. Estas te abrirán el panorama respecto a las herramientas de
+                        IAGen y sus posibles usos, lo que te permitirá usar la IA para la gestión académica e
+                        investigativa.</p>
+                    <p>Para iniciar, reproduce el siguiente audio, que es un punto de partida del tema. Está basado en
+                        las ideas de Chiu et al. (2023); Chen, Chen &amp; Liu (2020); UNESCO (2024); Holmes, Bialik y
+                        Fadel (2021):</p>
+                    <div class="flex-audio">
+                        <img src="assets/8.png" alt="">
+                        <audio src="assets/1.mp3" controls></audio>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade modales-ia" id="modal-biblio" tabindex="-1" aria-labelledby="modal-biblioLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="modal-biblioLabel"></h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img class="w-100 mb-4" src="assets/27.png" alt="">
+                    <div class="referencias">
+                        <p>Chen, L., Chen, P. &amp; Lin, Z. (2020). Artificial Intelligence in Education: A Review.
+                            <em>IEEE Access, 8</em>, 75264-75278. <a target="_blank"
+                                href="https://doi.org/10.1109/ACCESS.2020.2988510">https://doi.org/10.1109/ACCESS.2020.2988510</a>
+                        </p>
+                        <p>Chiu, T. K. F. (2021). A holistic approach to Artificial Intelligence (AI) curriculum for
+                            K-12 schools. <em>TechTrends, 65</em>, 796-807. <a target="_blank"
+                                href="https://doi.org/10.1007/s11528-021-00637-1">https://doi.org/10.1007/s11528-021-00637-1</a>
+                        </p>
+                        <p>Chiu, T. K. F., et al. (2023). Systematic literature review on opportunities, challenges, and
+                            future research recommendations of artificial intelligence in education. <em>Computers and
+                                Education: Artificial Intelligence, 4</em>, 100118. <a target="_blank"
+                                href="https://doi.org/10.1016/j.caeai.2022.100118">https://doi.org/10.1016/j.caeai.2022.100118</a>
+                        </p>
+                        <p>Holmes, W., Bialik, M., &amp; Fadel, C. (2019). <em>Artificial intelligence in education
+                                promises and implications for teaching and learning</em>. Center for Curriculum
+                            Redesign.</p>
+                        <p>Korzynski, P., et al. (2023). Artificial intelligence prompt engineering as a new digital
+                            competence: Analysis of generative AI technologies such as ChatGPT. <em>Entrepreneurial
+                                Business and Economics Review, 11</em>(3), 25-37.</p>
+                        <p>Navarro-Dolmestch, R. (2023). Risks and Challenges Posed by Artificial Intelligence
+                            Generative Applications for Academic Integrity. <em>Derecho PUCP, 91</em>, 231-270. <a
+                                target="_blank"
+                                href="https://doi.org/10.18800/derechopucp.202302.007">https://doi.org/10.18800/derechopucp.202302.007</a>
+                        </p>
+                        <p>UNESCO. (2021). <em>AI and education: Guidance for policy-makers</em>. <a target="_blank"
+                                href="https://unesdoc.unesco.org/ark:/48223/pf0000376709">https://unesdoc.unesco.org/ark:/48223/pf0000376709</a>
+                        </p>
+                        <p>UNESCO. (2023). <em>Guidelines for the ethics of artificial intelligence: Towards a
+                                humanistic approach?</em> <a target="_blank"
+                                href="https://unesdoc.unesco.org/ark:/48223/pf0000381137">https://unesdoc.unesco.org/ark:/48223/pf0000381137</a>
+                        </p>
+                        <p>UNESCO. (2024). <em>Guidance for generative AI in education and research</em>. <a
+                                target="_blank"
+                                href="https://unesdoc.unesco.org/ark:/48223/pf0000385877">https://unesdoc.unesco.org/ark:/48223/pf0000385877</a>
+                        </p>
+                        <p>Yu, Y. &amp; Go, Y. (2023). A study on the application of generative artificial intelligence
+                            in education. <em>Journal of Digital Convergence, 21</em>(5), 75-81. <a target="_blank"
+                                href="https://doi.org/10.14400/JDC.2023.21.5.075">https://doi.org/10.14400/JDC.2023.21.5.075</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade modales-ia" id="modal-cred" tabindex="-1" aria-labelledby="modal-credLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="modal-credLabel"></h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img class="w-100 mb-4" src="assets/28.png" alt="">
+                    <div class="creditos">
+                        <p><strong>Autoras</strong><br>
+                        Luisa Fernanda Osorio Correa<br>
+                        Lorena María Quiroz Betancur<br>
+                        Nilva Rosa Palacios</p>
+
+                        <p><strong>Asesoría pedagógica</strong><br>
+                        Lorena Quiroz Betancur<br>
+                        Andrea del Pilar Castro Prada<br>
+                        Luisa Fernanda Osorio Correa<br>
+                        Diana Marcela Escobar García</p>
+
+                        <p><strong>Guionización</strong><br>
+                        Betsabé Lema Ospina<br>
+                        Tiany Gamarra Castillo</p>
+
+                        <p><strong>Diseño gráfico</strong><br>
+                        Verónica Alexandra Correa Sierra<br>
+                        Esteban Martínez Pavas</p>
+
+                        <p><strong>Ilustración</strong><br>
+                        Diana Marcela Santacruz Hernández<br>
+                        Isabel Arcila Álvarez<br>
+                        Tatiana Ríos García</p>
+
+                        <p><strong>Desarrollo Front-end</strong><br>
+                        Laura Fernanda Echeverri Carvajal</p>
+
+                        <p><strong>Publicación de contenidos</strong><br>
+                        Estefanía Henao Barrera</p>
+
+                        <p><strong>Universidad Nacional de Colombia</strong></p>
+                        <p><strong>2025</strong></p>
+
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Javascript de Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

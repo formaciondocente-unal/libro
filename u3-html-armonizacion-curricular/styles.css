@@ -1,3 +1,12 @@
+@font-face {
+    font-family: "Ancizar";
+    src: url("./assets/fonts/ancizar/Ancizar_Sans/AncizarSans-Regular.otf") format("opentype");
+}
+
+* {
+    font-family: "Ancizar";
+}
+
 p,
 li,
 a {
@@ -45,13 +54,17 @@ a {
 
 .esc-3 {
     position: relative;
-    margin-top: 12rem;
+    margin-top: 10rem;
 }
 
 .esc-3 button {
     position: absolute;
     width: 27%;
     transition: all 0.5s;
+    animation-name: animacion-iconos;
+    animation-duration: 3.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
 }
 
 .esc-3 #btn-mod-1 {
@@ -74,8 +87,35 @@ a {
     top: 30%;
 }
 
-.esc-3 button:hover, .btn-caja:hover {
-    transform: scale(0.95);
+.esc-3 button:hover,
+.btn-caja:hover {
+    filter: drop-shadow(2px 4px 6px #222222);
+}
+
+@keyframes animacion-iconos {
+    from {
+        transform: scale(1);
+    }
+
+    10% {
+        transform: scale(0.95);
+    }
+
+    20% {
+        transform: scale(1);
+    }
+
+    35% {
+        transform: scale(0.95);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1);
+    }
 }
 
 /* Acordeon */

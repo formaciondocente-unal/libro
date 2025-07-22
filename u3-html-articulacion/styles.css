@@ -1,3 +1,12 @@
+@font-face {
+    font-family: "Ancizar";
+    src: url("./assets/fonts/ancizar/Ancizar_Sans/AncizarSans-Regular.otf") format("opentype");
+}
+
+* {
+    font-family: "Ancizar";
+}
+
 .contenedor-iframe {
     max-width: 600px;
     width: 100%;
@@ -130,4 +139,26 @@
 
 .modal-footer{
     border-top: unset !important;
+}
+
+.btn-cred:hover {
+    transform: scale(0.94);
+    filter: contrast(1.2);
+}
+
+.creditos{
+    text-align: center;
+}
+
+.btn-cred{
+    width: 220px;
+    margin: 5rem auto 0;
+    display: block;
+    border: unset;
+    background: unset;
+    transition: all 0.5s;
+}
+
+.btn-cred img{
+    width: 100%;
 }
