@@ -1,0 +1,339 @@
+:root {
+    --azul: #01004b;
+    --amarillo: #f3ce00;
+    --cielo: #00ADF3;
+}
+
+@font-face {
+    font-family: "Ancizar";
+    src: url("./assets/fonts/ancizar/Ancizar_Sans/AncizarSans-Regular.otf") format("opentype");
+}
+
+* {
+    font-family: "Ancizar";
+}
+
+p,
+li,
+a,
+td,
+th {
+    font-size: 1.1rem;
+}
+
+.caja-nota {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.caja-azul {
+    background-color: var(--azul);
+    color: #ffffff;
+    padding: 0.3rem 1rem;
+    border-radius: 15px;
+    max-width: 560px;
+    font-size: 1.1rem;
+}
+
+.caja-amarilla {
+    background-color: var(--amarillo);
+    color: var(--azul);
+    padding: 0.3rem 1rem;
+    border-radius: 0px 15px 15px 15px;
+    margin-left: 1rem;
+    max-width: 700px;
+}
+
+
+/* Barra de navegación */
+.barra {
+    width: 265px !important;
+    min-width: 265px !important;
+    position: sticky;
+    top: 0;
+}
+
+.nav-link {
+    background-color: var(--azul) !important;
+    border-radius: 25px;
+    color: white !important;
+    margin: 5px 0px;
+    font-weight: 600 !important;
+    transition: all 0.5s !important;
+    font-size: 1.1rem !important;
+
+}
+
+.nav-link:hover {
+    transform: translateX(12px);
+}
+
+.nav-link.active {
+    color: var(--azul) !important;
+    background-color: var(--amarillo) !important;
+    border: var(--azul) 1px solid;
+}
+
+/* Contenido */
+.tab-content {
+    padding: 5px 20px 2px 20px;
+    background-color: #f3f3f3;
+    margin: 5px 0px 5px 0px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.referencias {
+    word-break: break-all;
+}
+
+.referencias p {
+    margin-left: 35.45pt;
+    text-align: justify;
+    text-indent: -35.45pt;
+    line-height: 115%;
+}
+
+
+@media (max-width: 769px) {
+    .barra {
+        min-width: unset !important;
+    }
+
+    .flex-uni {
+        flex-direction: column;
+    }
+
+}
+
+.subtit-azul {
+    color: var(--azul);
+    font-weight: 600;
+    margin-top: 2rem;
+    font-size: 1.3rem;
+}
+
+.subtit-azul2 {
+    color: var(--azul);
+}
+
+
+.flex-redes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.flex-redes button {
+    border: unset;
+    background: unset;
+    transition: all 0.5s;
+}
+
+.flex-redes button:hover {
+    filter: drop-shadow(2px 4px 6px #484848);
+    transform: scale(0.95);
+}
+
+.flex-redes button:nth-child(1),
+.flex-redes button:nth-child(2) {
+    width: 210px;
+}
+
+.flex-redes button:nth-child(3) {
+    width: 239px;
+}
+
+.flex-redes button img {
+    width: 100%;
+}
+
+.modales1 .modal-header h1 {
+    color: var(--cielo);
+}
+
+.modales2 .modal-header h1 {
+    color: var(--azul);
+}
+
+.flex-pautas-dua {
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.flex-pautas1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.flex-pautas1 img {
+    width: 100%;
+    max-width: 400px;
+}
+
+@keyframes animacion-iconos {
+    from {
+        transform: scale(1);
+    }
+
+    10% {
+        transform: scale(0.95);
+    }
+
+    20% {
+        transform: scale(1);
+    }
+
+    35% {
+        transform: scale(0.95);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+.flex-pautas2 {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.flex-pautas2 button {
+    max-width: 250px;
+    border: unset;
+    background: unset;
+    animation-name: animacion-iconos;
+    animation-duration: 3.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    transition: all 0.5s;
+}
+
+.flex-pautas2 button:hover {
+    filter: grayscale(1);
+}
+
+.flex-pautas2 button img {
+    width: 100%
+}
+
+/* Tarjetas que se voltean */
+
+.flex-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.flex-cards .card {
+    perspective: 800px;
+    transition: all 0.5s ease;
+    border: none;
+    border-radius: 35px;
+    width: 100%;
+    min-width: 250px;
+    max-width: 305px;
+    background-color: #f3f3f3;
+}
+
+.flex-cards .card:hover>div {
+    transform: rotateY(180deg)
+}
+
+.flex-cards .card>div {
+    animation: giro 1s 1;
+    cursor: default;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.4s ease 0s;
+    width: 100%
+}
+
+.flex-cards .card .back,
+.flex-cards .card .front {
+    backface-visibility: hidden;
+    border-radius: 35px;
+    box-sizing: border-box;
+    color: #ffffff;
+    position: relative;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.flex-cards .card .back {
+    background-color: var(--azul);
+    display: flex;
+    align-items: center;
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    padding: 0px 10px;
+    transform: rotateY(180deg);
+    width: 100%;
+    overflow-y: overlay;
+    overflow-x: hidden;
+}
+
+.flex-cards .card .back div {
+    width: 100%;
+    height: 80%;
+    overflow-y: overlay;
+}
+
+.flex-cards .card .front img {
+    width: 100%
+}
+
+@keyframes giro {
+    from {
+        transform: rotateY(180deg)
+    }
+
+    to {
+        transform: rotateY(0deg)
+    }
+}
+
+.img-700 {
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+    display: block;
+}
+
+#acc-educacion .accordion-button {
+    background-color: #00adf3 !important;
+    font-size: 1.3rem !important;
+    color: #ffffff !important;
+    transition: all 0.5s;
+}
+
+#acc-educacion .accordion-button:hover {
+    background-color: #0095cf !important;
+}
+
+.subtit-cielo {
+    color: var(--cielo);
+}
+
+.img-400 {
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    display: block;
+}
