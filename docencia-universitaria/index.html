@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title></title>
+    <title>Docencia universitaria: diálogos entre lo educativo, lo pedagógico, lo curricular y lo didáctico </title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -18,21 +18,20 @@
                 <div class="contenedor-inicio">
                     <div class="flex1-esc">
                         <div>
-                            <img class="img-tit-esc" src="assets/1.png" alt="">
+                            <img class="img-tit-esc" src="assets/1.png" alt="Docencia universitaria: diálogos entre lo educativo, lo pedagógico, lo curricular y lo didáctico ">
                         </div>
                         <div class="sonflex-esc">
-                            <button>
+                            <button class="btn-creditos" data-tooltip="Créditos" aria-label="Créditos"
+                                data-bs-toggle="modal" data-bs-target="#modal-cred">
                                 <img src="assets/3.png" alt="">
                             </button>
-                            <!-- <button>
-                                <img src="assets/3.png" alt="">
-                            </button> -->
                         </div>
                     </div>
                     <div class="row flex2-esc">
                         <div class="col-md-3">
                             <div class="sonflex2-esc">
-                                <a class="btn-descargar" href="assets/1.pdf" target="_blank">
+                                <a class="btn-descargar" href="assets/1.pdf" target="_blank"
+                                    aria-label="Descarga aquí el libro Docencia universitaria">
                                     <img class="w-100" src="assets/2.png" alt="">
                                 </a>
                                 <p class="instr-inicio">Haz clic en cada capítulo<br>
@@ -52,24 +51,28 @@
         <div class="fondo-azul">
             <div id="temas-collapse">
                 <div class="contenedor-botones">
-                    <button aria-label="" data-bs-toggle="collapse" data-bs-target="#tema1" aria-expanded="false"
-                        class="collapsed">
+                    <button
+                        aria-label="Capítulo 1 Lo educativo: transitar hacia una educación superior de calidad como derecho humano fundamental "
+                        data-bs-toggle="collapse" data-bs-target="#tema1" aria-expanded="false" class="collapsed">
                         <img src="assets/4.png" alt="">
                     </button>
-                    <button aria-label="" data-bs-toggle="collapse" data-bs-target="#tema2" aria-expanded="false"
-                        class="collapsed">
+                    <button
+                        aria-label="Capítulo 2 Lo pedagógico: la formación integral y la formación investigativa como fundamentos de los enfoques pedagógicos y del despliegue de capacidades"
+                        data-bs-toggle="collapse" data-bs-target="#tema2" aria-expanded="false" class="collapsed">
                         <img src="assets/5.png" alt="">
                     </button>
-                    <button aria-label="" data-bs-toggle="collapse" data-bs-target="#tema3" aria-expanded="false"
-                        class="collapsed">
+                    <button
+                        aria-label="Capítulo 3 Lo curricular: rutas de formación que se desprenden de los Proyectos Educativos de Programa "
+                        data-bs-toggle="collapse" data-bs-target="#tema3" aria-expanded="false" class="collapsed">
                         <img src="assets/6.png" alt="">
                     </button>
-                    <button aria-label="" data-bs-toggle="collapse" data-bs-target="#tema4" aria-expanded="false"
-                        class="collapsed">
+                    <button
+                        aria-label="Capítulo 4 Lo Didáctico: escenarios de comunicación e interacción entre profesoras, profesores, estudiantes y saberes"
+                        data-bs-toggle="collapse" data-bs-target="#tema4" aria-expanded="false" class="collapsed">
                         <img src="assets/7.png" alt="">
                     </button>
-                    <button aria-label="" data-bs-toggle="collapse" data-bs-target="#tema5" aria-expanded="false"
-                        class="collapsed">
+                    <button aria-label="Ecos del proceso de formación docente " data-bs-toggle="collapse"
+                        data-bs-target="#tema5" aria-expanded="false" class="collapsed">
                         <img src="assets/9.png" alt="">
                     </button>
                 </div>
@@ -80,6 +83,8 @@
                         <div class="container">
                             <img class="w-100 mb-5" src="assets/12.png"
                                 alt="Capítulo 1 Lo educativo: transitar hacia una educación superior de calidad como derecho humano fundamental">
+                            <p class="text-center">Haz clic sobre el botón para escuchar la introducción del capítulo
+                            </p>
                             <div class="flex-audio">
                                 <img src="assets/8.png" alt="">
                                 <audio src="assets/1.mp3" controls></audio>
@@ -106,7 +111,7 @@
                             <p><strong class="subtit-azul">Accede a los recursos educativos</strong> relacionados a cada
                                 tema haciendo clic
                                 en los botones.</p>
-                            <div class="esc1">
+                            <div class="esc">
                                 <img class="w-100" src="assets/14.png" alt="">
                                 <a id="esc1-btn1"
                                     href="https://formaciondocente-unal.github.io/libro/u1-interactivo-objetivos-desarrollo/genially.html"
@@ -152,6 +157,8 @@
                         <div class="container">
                             <img class="w-100 mb-5" src="assets/17.png"
                                 alt="Capítulo 2 Lo pedagógico: la formación integral y la formación investigativa como fundamentos de los enfoques pedagógicos y del despliegue de capacidades">
+                            <p class="text-center">Haz clic sobre el botón para escuchar la introducción del capítulo
+                            </p>
                             <div class="flex-audio">
                                 <img src="assets/8.png" alt="">
                                 <audio src="assets/2.mp3" controls></audio>
@@ -175,30 +182,22 @@
                             <p>A continuación, se detalla la estructura general del capítulo.</p>
                             <p><strong class="subtit-azul">Accede a los recursos educativos</strong> relacionados a cada
                                 tema haciendo clic en los botones.</p>
-                            <div class="esc1">
-                                <img class="w-100" src="assets/14.png" alt="">
-                                <a id="esc1-btn1"
-                                    href="https://formaciondocente-unal.github.io/libro/u1-interactivo-objetivos-desarrollo/genially.html"
-                                    aria-label="La educación superior de calidad como derecho humano fundamental"
-                                    target="_blank">
+                            <div class="esc">
+                                <img class="w-100" src="assets/18.png" alt="">
+                                <a id="esc2-btn1"
+                                    href="https://formaciondocente-unal.github.io/libro/u2-interactivo-cuatro-tradiciones/genially.html"
+                                    aria-label="Formación" target="_blank">
                                     <img src="assets/15.png" alt="">
                                 </a>
-                                <button id="esc1-btn2" data-bs-toggle="modal" data-bs-target="#esc1-modal1"
-                                    aria-label="Educación superior inclusiva ">
+                                <button id="esc2-btn2" data-bs-toggle="modal" data-bs-target="#esc2-modal1"
+                                    aria-label="Capacidades">
                                     <img src="assets/15.png" alt="">
                                 </button>
-                                <button id="esc1-btn3" data-bs-toggle="modal" data-bs-target="#esc1-modal2"
-                                    aria-label="Educación superior con perspectiva de género ">
+                                <a id="esc2-btn3"
+                                    href="https://formaciondocente-unal.github.io/libro/u2-html-ia-gestion-educativa/index.html"
+                                    aria-label="Inteligencia artificial - ciencia abierta - tecnología" target="_blank">
                                     <img src="assets/15.png" alt="">
-                                </button>
-                                <button id="esc1-btn4" data-bs-toggle="modal" data-bs-target="#esc1-modal3"
-                                    aria-label="Grupos que merecen equidad ">
-                                    <img src="assets/16.png" alt="">
-                                </button>
-                                <button id="esc1-btn5" data-bs-toggle="modal" data-bs-target="#esc1-modal4"
-                                    aria-label="La educación superior de calidad como proyecto público y bien común">
-                                    <img src="assets/15.png" alt="">
-                                </button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -214,16 +213,239 @@
                     </div>
                 </div>
 
+                <!-- Capítulo 3 -->
                 <div id="tema3" class="card collapse" data-bs-parent="#temas-collapse">
-                    ...
+                    <div class="fondo-cielo">
+                        <div class="container">
+                            <img class="w-100 mb-5" src="assets/19.png"
+                                alt="Capítulo 3 Lo curricular: rutas de formación que se desprenden de los Proyectos Educativos de Programa ">
+                            <p class="text-center">Haz clic sobre el botón para escuchar la introducción del capítulo
+                            </p>
+                            <div class="flex-audio">
+                                <img src="assets/8.png" alt="">
+                                <audio src="assets/3.mp3" controls></audio>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fondo-amarillo">
+                        <div class="container">
+                            <h3 class="subtit-azul">Actividad de saberes previos</h3>
+                            <p>Ingresa al siguiente recurso y desarrolla la actividad.</p>
+                            <a class="btn-actividad"
+                                href="https://formaciondocente-unal.github.io/libro/h5p-tipos-curriculo/index.html"
+                                target="_blank">
+                                <img class="img-900" src="assets/29.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="fondo-blanco">
+                        <div class="container">
+                            <h3 class="subtit-azul">Esquema del capítulo</h3>
+                            <p>A continuación, se detalla la estructura general del capítulo.</p>
+                            <p><strong class="subtit-azul">Accede a los recursos educativos</strong> relacionados a cada
+                                tema haciendo clic en los botones.</p>
+                            <div class="esc">
+                                <img class="w-100" src="assets/20.png" alt="">
+                                <a id="esc3-btn1"
+                                    href="https://formaciondocente-unal.github.io/libro/u3-html-espiral-tiempo/inicio.html"
+                                    aria-label="Consolidado de teorías" target="_blank">
+                                    <img src="assets/15.png" alt="">
+                                </a>
+                                <a id="esc3-btn2" href="assets/10.pdf" aria-label="Documento orientador"
+                                    target="_blank">
+                                    <img src="assets/15.png" alt="">
+                                </a>
+                                <a id="esc3-btn3" href="assets/20.pdf"
+                                    aria-label="Articulación de elementos pedagógicos, curriculares y didácticos"
+                                    target="_blank">
+                                    <img src="assets/15.png" alt="">
+                                </a>
+                                <a id="esc3-btn4"
+                                    href="https://formaciondocente-unal.github.io/libro/u3-html-creditos-academicos/inicio.html"
+                                    aria-label="Créditos académicos" target="_blank">
+                                    <img src="assets/16.png" alt="">
+                                </a>
+                                <a id="esc3-btn5"
+                                    href="https://formaciondocente-unal.github.io/libro/u3-html-articulacion/index.html"
+                                    aria-label="Coherencia con PEI" target="_blank">
+                                    <img src="assets/16.png" alt="">
+                                </a>
+                                <a id="esc3-btn6" href="assets/12.pdf" aria-label="Procesos de armonización"
+                                    target="_blank">
+                                    <img src="assets/15.png" alt="">
+                                </a>
+                                <a id="esc3-btn7"
+                                    href="https://formaciondocente-unal.github.io/libro/u3-html-armonizacion-curricular/index.html"
+                                    aria-label="Proyectos educativos de programa " target="_blank">
+                                    <img src="assets/16.png" alt="">
+                                </a>
+                                <button id="esc3-btn8" data-bs-toggle="modal" data-bs-target="#esc3-modal1"
+                                    aria-label="Procesos de gestión y evaluación">
+                                    <img src="assets/15.png" alt="">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fondo-cielo">
+                        <div class="container">
+                            <h3>Lee el capítulo</h3>
+                            <p>En el siguiente documento podrás leer el capítulo de “Lo curricular” del libro
+                                <em>Docencia universitaria: diálogos entre lo educativo, lo pedagógico, lo curricular y
+                                    lo didáctico</em>, si deseas tener acceso completo al él, descárgalo en la página de
+                                inicio de este recurso.</p>
+                            <embed src="assets/1.pdf" width="100%" height="800px" type="application/pdf">
+                        </div>
+                    </div>
                 </div>
 
+                <!-- Capítulo 4 -->
                 <div id="tema4" class="card collapse" data-bs-parent="#temas-collapse">
-                    ...
+                    <div class="fondo-cielo">
+                        <div class="container">
+                            <img class="w-100 mb-5" src="assets/21.png"
+                                alt="Capítulo 4 Lo Didáctico: escenarios de comunicación e interacción entre profesoras, profesores, estudiantes y saberes">
+                            <p class="text-center">Haz clic sobre el botón para escuchar la introducción del capítulo
+                            </p>
+                            <div class="flex-audio">
+                                <img src="assets/8.png" alt="">
+                                <audio src="assets/4.mp3" controls></audio>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fondo-amarillo">
+                        <div class="container">
+                            <h3 class="subtit-azul">Actividad de saberes previos</h3>
+                            <p>A partir de los memes que se presentan a continuación y de sus miradas y experiencias en
+                                contextos educativos, le invitamos a expresar su propia definición y comprensión acerca
+                                de la didáctica: ¿qué es la didáctica? y ¿para qué sirve la didáctica?</p>
+                            <img class="img-900" src="assets/22.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="fondo-blanco">
+                        <div class="container">
+                            <h3 class="subtit-azul">Esquema del capítulo</h3>
+                            <p>A continuación, se detalla la estructura general del capítulo.</p>
+                            <p><strong class="subtit-azul">Accede a los recursos educativos</strong> relacionados a cada
+                                tema haciendo clic en los botones.</p>
+                            <div class="esc">
+                                <img class="w-100" src="assets/23.png" alt="">
+                                <a id="esc4-btn1"
+                                    href="https://formaciondocente-unal.github.io/libro/u4-html-estrategias/inicio.html"
+                                    aria-label="Estrategias didácticas" target="_blank">
+                                    <img src="assets/15.png" alt="">
+                                </a>
+                                <a id="esc4-btn2"
+                                    href="https://drive.google.com/drive/folders/1bamgqgoqYdQD1vuk_jrHFud2sPWpnl6I"
+                                    aria-label="Estrategias didácticas" target="_blank">
+                                    <img src="assets/15.png" alt="">
+                                </a>
+                                <a id="esc4-btn3" href="assets/13.pdf" aria-label="Evaluación" target="_blank">
+                                    <img src="assets/15.png" alt="">
+                                </a>
+                                <button id="esc4-btn4" data-bs-toggle="modal" data-bs-target="#esc4-modal1"
+                                    aria-label="Orientadas a las particularidades de los sujetos">
+                                    <img src="assets/15.png" alt="">
+                                </button>
+                                <button id="esc4-btn5" data-bs-toggle="modal" data-bs-target="#esc4-modal2"
+                                    aria-label="Discapacidades">
+                                    <img src="assets/15.png" alt="">
+                                </button>
+                                <button id="esc4-btn6" data-bs-toggle="modal" data-bs-target="#esc4-modal3"
+                                    aria-label="Contextos">
+                                    <img src="assets/15.png" alt="">
+                                </button>
+                                <button id="esc4-btn7" data-bs-toggle="modal" data-bs-target="#esc4-modal4"
+                                    aria-label="Microcurrículos">
+                                    <img src="assets/15.png" alt="">
+                                </button>
+                                <a id="esc4-btn8"
+                                    href="https://formaciondocente-unal.github.io/libro/u4-html-alternativas-ensenanza/index.html"
+                                    aria-label="Didácticas especiales" target="_blank">
+                                    <img src="assets/16.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fondo-cielo">
+                        <div class="container">
+                            <h3>Lee el capítulo</h3>
+                            <p>En el siguiente documento podrás leer el capítulo de “Lo didáctico” del libro
+                                <em>Docencia universitaria: diálogos entre lo educativo, lo pedagógico, lo curricular y
+                                    lo didáctico</em>, si deseas tener acceso completo al él, descárgalo en la página de
+                                inicio de este recurso.</p>
+                            <embed src="assets/1.pdf" width="100%" height="800px" type="application/pdf">
+                        </div>
+                    </div>
                 </div>
 
                 <div id="tema5" class="card collapse" data-bs-parent="#temas-collapse">
-                    ...
+                    <div class="fondo-blanco">
+                        <div class="container">
+                            <img class="w-100 mb-5" src="assets/24.png" alt="Ecos del proceso de formación docente ">
+                            <p class="mb-3">Reproduce cada video para conocer el testimonio diferentes profesoras
+                                y profesores que participaron del proceso de formación del Diplomado de Docencia
+                                Universitaria. </p>
+                            <div class="row flex-videos">
+                                <div class="col-md-4 col-sm-12">
+                                    <div class="iframe-responsive">
+                                        <iframe width="560" height="315"
+                                            src="https://www.youtube.com/embed/f9qHC53AOxc?si=hvYIWdGc_tES78td"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                    </div>
+                                    <p class="autor-video">Valentina Mejía, Sede Manizales</p>
+                                </div>
+
+                                <div class="col-md-4 col-sm-12">
+                                    <div class="iframe-responsive">
+                                        <iframe width="560" height="315"
+                                            src="https://www.youtube.com/embed/85iAPpfsIAs?si=JG33pEPbB9jJUr8a"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                    </div>
+                                    <p class="autor-video">Nicolás Mora, Sede Bogotá</p>
+                                </div>
+
+                                <div class="col-md-4 col-sm-12">
+                                    <div class="iframe-responsive">
+                                        <iframe width="560" height="315"
+                                            src="https://www.youtube.com/embed/6wzU-T1RvVs?si=eeMNnNrkMdyR0gYm"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                    </div>
+                                    <p class="autor-video">Rubén Pardo, Sede Bogotá</p>
+                                </div>
+                            </div>
+                            <div class="row flex-videos">
+                                <div class="col-md-4 col-sm-12">
+                                    <div class="iframe-responsive">
+                                        <iframe width="560" height="315"
+                                            src="https://www.youtube.com/embed/tlUj59bgJYM?si=h8W8fJYsECvkpirx"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                    </div>
+                                    <p class="autor-video">Leandro Garzón, sede Medellín </p>
+                                </div>
+
+                                <div class="col-md-4 col-sm-12">
+                                    <div class="iframe-responsive">
+                                        <iframe width="560" height="315"
+                                            src="https://www.youtube.com/embed/-DkNHUAzjVM?si=yMoX6y7UGflEenCm"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                    </div>
+                                    <p class="autor-video">Ana Milena Morales, sede Bogotá</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
 
             </div>
@@ -248,7 +470,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <h2 class="subtit-azul mt-4">Educación en clave de diversidad</h2>
+                    <h2 class="subtit-azul mt-4">video “Educación en clave de diversidad”</h2>
                     <div class="contenedor-iframe contenedor-iframe--center">
                         <div class="iframe-responsive">
                             <iframe width="560" height="315"
@@ -286,7 +508,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <h2 class="subtit-azul mt-4">Observatorio de Asuntos de Género</h2>
+                    <h2 class="subtit-azul mt-4">Video “Observatorio de Asuntos de Género”</h2>
                     <div class="contenedor-iframe contenedor-iframe--center">
                         <div class="iframe-responsive">
                             <iframe width="560" height="315"
@@ -313,7 +535,8 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <h2 class="subtit-azul mt-4">Diversidad, inclusión y equidad: desafíos en la educación superior</h2>
+                    <h2 class="subtit-azul mt-4">Video “Diversidad, inclusión y equidad: desafíos en la educación
+                        superior”</h2>
                     <div class="contenedor-iframe contenedor-iframe--center">
                         <div class="iframe-responsive">
                             <iframe width="560" height="315"
@@ -341,7 +564,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <h2 class="subtit-azul mt-4">Proyecto Educativo Universidad Nacional de Colombia</h2>
+                    <h2 class="subtit-azul mt-4">Video “Proyecto Educativo Universidad Nacional de Colombia”</h2>
                     <div class="contenedor-iframe contenedor-iframe--center">
                         <div class="iframe-responsive">
                             <iframe width="560" height="315"
@@ -351,6 +574,231 @@
                                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                         </div>
                     </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modales capítulo 2 -->
+    <div class="modal fade modales-pagina" id="esc2-modal1" tabindex="-1" aria-labelledby="esc2-modal1Label"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title" id="esc2-modal1Label">Capacidades</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h2 class="subtit-azul mt-4">Video “Enfoque de capacidades en la educación superior”</h2>
+                    <div class="contenedor-iframe contenedor-iframe--center">
+                        <div class="iframe-responsive">
+                            <iframe width="560" height="315"
+                                src="https://www.youtube.com/embed/U1t4g56zC5Y?si=A47x74u-vGAMFNGF"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modales capítulo 3 -->
+    <div class="modal fade modales-pagina" id="esc3-modal1" tabindex="-1" aria-labelledby="esc3-modal1Label"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title" id="esc3-modal1Label">Procesos de gestión y evaluación</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h2 class="subtit-azul mt-4">Videoclase “Evaluación curricular: el caso de la Universidad Autónoma
+                        de Baja California, México”</h2>
+                    <div class="contenedor-iframe contenedor-iframe--center">
+                        <div class="iframe-responsive">
+                            <iframe width="560" height="315"
+                                src="https://www.youtube.com/embed/w1f1G2fG9FU?si=Pl7RsXRG_bFvruTO"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modales capítulo 4 -->
+    <div class="modal fade modales-pagina" id="esc4-modal1" tabindex="-1" aria-labelledby="esc4-modal1Label"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title" id="esc4-modal1Label">Orientadas a las particularidades de los sujetos </h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h2 class="subtit-azul mt-4">Videoconferencia “Diversidad, inclusión y equidad”</h2>
+                    <div class="contenedor-iframe contenedor-iframe--center">
+                        <div class="iframe-responsive">
+                            <iframe width="560" height="315"
+                                src="https://www.youtube.com/embed/JrHGpnvMwIQ?si=lmKeAH04ieVhEOec"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade modales-pagina" id="esc4-modal2" tabindex="-1" aria-labelledby="esc4-modal2Label"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title" id="esc4-modal2Label">Discapacidades</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p><em>Haz clic sobre cada botón para acceder a su contenido</em></p>
+                    <div class="flex-botonera-modal">
+                        <a class="btn-rec-modal" href="assets/14.pdf" target="_blank">Estrategias pedagógicas
+                            inclusivas</a>
+                        <a class="btn-rec-modal" href="assets/15.pdf" target="_blank">Pautas para la interacción.
+                            Personas
+                            con discapacidad</a>
+                        <a class="btn-rec-modal" href="assets/16.pdf" target="_blank">Accesibilidad a la información</a>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade modales-pagina" id="esc4-modal3" tabindex="-1" aria-labelledby="esc4-modal3Label"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title" id="esc4-modal3Label">Contextos</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p><em>Haz clic sobre cada botón para acceder a su contenido</em></p>
+                    <div class="flex-botonera-modal">
+                        <a class="btn-rec-modal" href="assets/17.pdf" target="_blank">Inclusiómetro</a>
+                        <a class="btn-rec-modal" href="assets/18.pdf" target="_blank">Recomendaciones a docentes para
+                            formar
+                            en diversidad y equidad</a>
+                        <a class="btn-rec-modal" href="assets/19.pdf" target="_blank">Decálogo. Buenas prácticas en
+                            comunicación con enfoque de género</a>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade modales-pagina" id="esc4-modal4" tabindex="-1" aria-labelledby="esc4-modal4Label"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title" id="esc4-modal4Label">Microcurrículos</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p><em>Haz clic sobre cada botón para acceder a su contenido</em></p>
+                    <div class="flex-botonera-modal">
+                        <a class="btn-rec-modal" href="https://www.youtube.com/watch?v=ERRjmQV6SvM&t=42s"
+                            target="_blank">El
+                            diseño del microcurrículo</a>
+                        <a class="btn-rec-modal" href="assets/21.pdf" target="_blank">Ejemplo microcurrículo
+                            diligenciado
+                        </a>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modales créditos -->
+    <div class="modal fade modal-creditos" id="modal-cred" tabindex="-1" aria-labelledby="modal-credLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title" id="modal-credLabel"></h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img class="w-100 mb-4" src="assets/27.png" alt="">
+                    <div class="text-center">
+                        <p><strong>Coordinación Académica</strong><br>
+                            María Isabel Duque Roldán<br>
+                            Facultad de Ciencias Económicas<br>
+                            Mauricio Múnera Gómez<br>
+                            Facultad de Educación<br>
+                            Universidad de Antioquia</p>
+
+                        <p><strong>Asesoría pedagógica</strong><br>
+                            Diana Marcela Escobar García</p>
+
+                        <p><strong>Guionización</strong><br>
+                            Tiany Gamarra Castillo</p>
+
+                        <p>Diseño gráfico</strong><br>
+                            Esteban Martínez Pavas<br>
+                            Verónica Alexandra Correa Sierra</p>
+
+                        <p><strong>Ilustración</strong><br>
+                            Diana Marcela Santacruz Hernández</p>
+
+                        <p><strong>Realización audiovisual</strong><br>
+                            Mauricio Rojas Maldonado</p>
+
+                        <p><strong>Locución</strong><br>
+                            Betsabé Lema Ospina<br>
+                            Mauricio Rojas Maldonado</p>
+
+                        <p><strong>Desarrollo Front-end</strong><br>
+                            Laura Fernanda Echeverri Carvajal</p>
+
+                        <p><strong>Agradecimientos</strong><br>
+                            Valentina Mejía Amézquita<br>
+                            Nicolás Mora Parra<br>
+                            Rubén Darío Pardo Herrera<br>
+                            Lucero Álvarez Miño<br>
+                            Yefry Andrés Aragón Joya<br>
+                            Universidad Nacional de Colombia</p>
+
+                        <p><strong>Universidad Nacional de Colombia<br>
+                                2025</strong></p>
+                    </div>
+
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
